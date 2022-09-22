@@ -1,0 +1,55 @@
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--accent-color: #2196F3;
+--white-title-color: #FFFFFF;
+--secondary-background-color: #2F303A;
+}
+
+
+
+
+
+body {
+  color: var(--primary-text-color);
+  background: #F5F5F5;
+}
+ul{
+  list-style: none;
+}
+.link {color: var(--primary-text-color);}
+.link:hover, .link:focus {color: var(--accent-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+} 
+.hero  {
+  background: var(--secondary-background-color)
+}
+.hero-title {
+  color: var(--white-title-color); 
+
+}
+.button-title {
+  color: var(--white-title-color); 
+  background: var(--accent-color);
+}
+ .text {
+  color: var(--secondary-text-color) ;
+ }
+
+
+/* основний */
+color: #212121;
+/* другорядний. */
+color: #757575;
+/* Ефективні рішення для вашого бізнесу */
+color: #FFFFFF; 
+/*акцент */
+background: #2196F3
+/* фон героя та футер */
+background: #2F303A
+/* фон команди */
+background: #F5F4FA
+/* info@devstudio.com */
+color: rgba(255, 255, 255, 0.6);
