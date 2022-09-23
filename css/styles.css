@@ -38,6 +38,8 @@ ul {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+.link-current {text-decoration: none;
+  color: var(--accent-color);}
 
 .link:hover,
 .link:focus { text-decoration: none;
@@ -111,21 +113,3 @@ footer {
   text-decoration: none;
   color: var(--accent-color)
 }
-
-color: #2196F3;
-
-
-/* основний */
-color: #212121;
-/* другорядний. */
-color: #757575;
-/* Ефективні рішення для вашого бізнесу */
-color: #FFFFFF;
-/*акцент */
-background: #2196F3
-/* фон героя та футер */
-background: #2F303A
-/* фон команди */
-background: #F5F4FA
-/* info@devstudio.com */
-color: rgba(255, 255, 255, 0.6);
