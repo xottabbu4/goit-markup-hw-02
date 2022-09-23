@@ -1,42 +1,118 @@
 :root {
---primary-text-color: #212121;
---secondary-text-color: #757575;
---accent-color: #2196F3;
---white-title-color: #FFFFFF;
---secondary-background-color: #2F303A;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196F3;
+  --white-title-color: #FFFFFF;
+  --primary-bg-color: #FFFFFF;
+  --secondary-bg-color: #2F303A;
+  
 }
-
-
-
 
 
 body {
   color: var(--primary-text-color);
-  background: #F5F5F5;
+  background:var(--primary-bg-color);
+  font-family: 'Roboto', sans-serif;
 }
-ul{
+
+ul {
   list-style: none;
 }
-.link {color: var(--primary-text-color);}
-.link:hover, .link:focus {color: var(--accent-color);
+.link { text-decoration: none;}
+
+/* 
+/* -------------------HEADER------------------------- */
+
+.contacts {
+  text-decoration: none;
+  color: var(--secondary-text-color);
 }
-.section-title {
+
+.contacts:hover,
+.contacts:focus {
+  text-decoration: none;
+  color: var(--accent-color)
+}
+
+.link {
+  text-decoration: none;
   color: var(--primary-text-color);
-} 
-.hero  {
-  background: var(--secondary-background-color)
 }
-.hero-title {
-  color: var(--white-title-color); 
+
+.link:hover,
+.link:focus { text-decoration: none;
+  color: var(--accent-color);
+}
+/* -------------------HERO------------------------- */
+
+.hero {
+  background: var(--secondary-bg-color)
+}
+
+.hero-title {  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--white-title-color);
 
 }
-.button-title {
-  color: var(--white-title-color); 
+
+.hero-button { font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--white-title-color);
   background: var(--accent-color);
+  cursor: pointer
 }
- .text {
-  color: var(--secondary-text-color) ;
- }
+/* -------------------MAIN------------------------- */
+.text {
+  color: var(--secondary-text-color);
+}
+
+.team { background: #F5F5F5 ;}
+.team-member {font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center; }
+.team-member-title {font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* -------------------FOOTER------------------------- */
+footer {
+  background: var(--secondary-bg-color)
+}
+.logo { text-decoration: none;
+  font-family: 'Raleway';
+  color: #000000;
+  
+}
+
+.logo>span { text-decoration: none;
+  color: var(--accent-color);
+}
+
+.logo-footer { text-decoration: none;
+  color: var(--white-title-color)
+
+}
+
+.logo-footer>span {
+  color: var(--accent-color);
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+  text-decoration: none;
+  color: var(--accent-color)
+}
+
+color: #2196F3;
 
 
 /* основний */
@@ -44,7 +120,7 @@ color: #212121;
 /* другорядний. */
 color: #757575;
 /* Ефективні рішення для вашого бізнесу */
-color: #FFFFFF; 
+color: #FFFFFF;
 /*акцент */
 background: #2196F3
 /* фон героя та футер */
